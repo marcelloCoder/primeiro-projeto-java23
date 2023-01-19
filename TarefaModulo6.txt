@@ -1,0 +1,13 @@
+1 - O alarme desperta
+2 - Desativar alarme? Sim
+	1 - Após desativar, voltar a dormir
+	2 - Após desativar, acordar e se preparar para levantar
+	3 - Após levantar, escovar os dentes
+	4 - Fazer café
+	5 - Ir para o trabalho? Sim
+		1 - Ir para o trabalho a pé
+		2 - Ir para o trabalho de carro
+	6 - Não
+		1 - Continuar em casa 
+3 - Não
+	1 - Continuar Dormindo
