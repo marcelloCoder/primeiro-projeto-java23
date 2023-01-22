@@ -3,6 +3,8 @@
  */
 package br.com.ebac.primeiro;
 
+import br.com.ebac.primeiro.classes.Aluno;
+
 /**
  * @author marce
  *
@@ -23,6 +25,9 @@ public class Main {
 		if (ambiente.equals("Dev")) {
 			System.out.println("Dev");
 		}*/
+		
+		Aluno aluno = new Aluno();
+		System.out.println("\nTarefa Calculo Media: " + aluno.getTarefaCalculoMedia());
 
 	}
 
