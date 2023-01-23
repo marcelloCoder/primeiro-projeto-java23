@@ -4,6 +4,7 @@
 package br.com.ebac.primeiro;
 
 import br.com.ebac.primeiro.classes.Aluno;
+import br.com.ebac.primeiro.classes.Variaveis;
 
 /**
  * @author marce
@@ -28,6 +29,10 @@ public class Main {
 		
 		Aluno aluno = new Aluno();
 		System.out.println("\nTarefa Calculo Media: " + aluno.getTarefaCalculoMedia());
+		
+		Variaveis variaveis = new Variaveis();
+		System.out.println("\nTarefa Wrapper: " + variaveis.getVariaveisComplexas());
+		System.out.println("\nTarefa Wrapper: " + variaveis.getVariaveisComplexas2());
 
 	}
 
