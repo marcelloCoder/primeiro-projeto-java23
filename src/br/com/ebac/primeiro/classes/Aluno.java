@@ -19,13 +19,13 @@ public class Aluno {
 	
 	private Float nota;
 	
-	private Double nota1 = 8.8;
+	private Double nota1;
 
-	private Double nota2 = 4.5;
+	private Double nota2;
 	
-	private Double nota3 = 6.6;
+	private Double nota3;
 	
-	private Double nota4 = 5.0;
+	private Double nota4;
 	
 	private Double resultado;
 	
@@ -101,9 +101,9 @@ public class Aluno {
 	}
 	
 	public Double getTarefaCalculoMedia() {
-		resultado = nota1 + nota2 + nota3 + nota4;
-		return resultado / 4;
+		return (getNota1() + getNota2() + getNota3() + getNota4())/4;
 	}
+	
 	
 	
 	
