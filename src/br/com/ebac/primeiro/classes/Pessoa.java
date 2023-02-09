@@ -50,6 +50,15 @@ public class Pessoa {
 		this.idade = idade;
 		this.sexo = sexo;
 	}
+	
+	
+
+	/**
+	 * 
+	 */
+	public Pessoa() {
+		super();
+	}
 
 	@Override
 	public String toString() {

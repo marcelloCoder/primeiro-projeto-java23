@@ -38,7 +38,7 @@ public class Tarefa_Controle_de_Fluxo {
 				System.out.println("\nReprovado");
 			}
 			
-			JOptionPane.showInputDialog("Deseja adicionar notas dos alunos?", r);
+			resposta = JOptionPane.showInputDialog("Deseja adicionar notas dos alunos?", r);
 	
 			
 		}

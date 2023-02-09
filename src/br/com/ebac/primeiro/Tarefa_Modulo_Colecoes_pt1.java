@@ -53,7 +53,7 @@ public class Tarefa_Modulo_Colecoes_pt1 {
 				System.out.println("\n-----------------------------------------------------------");
 			}
 
-			JOptionPane.showInputDialog("Deseja adicionar notas dos alunos?", r);
+			resposta = JOptionPane.showInputDialog("Deseja adicionar notas dos alunos?", r);
 		}
 
 		JOptionPane.showMessageDialog(null, "Fim da Aplicação");
