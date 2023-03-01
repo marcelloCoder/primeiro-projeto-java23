@@ -20,6 +20,7 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 import br.com.ebac.primeiro.classes.Aluno;
 import br.com.ebac.primeiro.classes.Pessoa;
+import br.com.ebac.primeiro.classes.PessoaJuridica;
 
 /**
  * @author marce
@@ -53,7 +54,7 @@ public class Tarefa_Modulo_Colecoes_pt2 {
 		List<Pessoa> pessoas = new ArrayList<Pessoa>();
 		List<String> cres = new LinkedList<String>();
 		List<String> cres1 = new LinkedList<String>();
-		Pessoa pessoas1 = new Pessoa();
+		PessoaJuridica pessoas1 = new PessoaJuridica();
 
 		String r = JOptionPane.showInputDialog("Deseja adicionar nomes?");
 		String resposta = r;

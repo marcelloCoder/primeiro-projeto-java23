@@ -7,7 +7,7 @@ package br.com.ebac.primeiro.classes;
  * @author marce
  *
  */
-public class Pessoa {
+public abstract class Pessoa {
 	
 	private String nome;
 	
