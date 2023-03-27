@@ -6,10 +6,10 @@ public class Demo {
         App app;
         GUIFactory factory;
         String osName = System.getProperty("os.name").toLowerCase();
-        if (osName.contains("fiat")) {
-            factory = new FiatFactory();
-        } else {
+        if (osName.contains("TOYOTA")) {
             factory = new ToyotaFactory();
+        } else {
+            factory = new FiatFactory();
         }
         app = new App(factory);
         return app;
