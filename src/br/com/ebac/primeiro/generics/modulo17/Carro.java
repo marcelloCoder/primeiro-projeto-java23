@@ -5,6 +5,14 @@ public abstract class Carro<E, T> {
 	private E nome;
 	
 	private T marca;
+	
+	
+
+	public Carro(E nome, T marca) {
+		super();
+		this.nome = nome;
+		this.marca = marca;
+	}
 
 	public E getNome() {
 		return nome;

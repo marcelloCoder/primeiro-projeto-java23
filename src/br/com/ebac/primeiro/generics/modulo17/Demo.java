@@ -14,7 +14,7 @@ public class Demo {
 		List<Fiat> fiat = new ArrayList<>();
 		
 		
-		carro.add(new Hyundai());
+		carro.add(new Hyundai(12, "Uma string normal"));
 		imprimeCarro(carro);
 		contarCarro(carro);
 		imprimeHyundai(hyundai);
@@ -35,7 +35,7 @@ public class Demo {
 			
 	}
 	private static void imprimeHyundai(List<? super Hyundai> hyundai) {
-		hyundai.add(new Hyundai());
+		hyundai.add(new Hyundai("carro hyundai", "carro hyundai"));
 		System.out.println("Adicionando Hyundai " + hyundai);
 	}
 
